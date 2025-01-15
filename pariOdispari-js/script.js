@@ -22,7 +22,7 @@ function controlloPari(number) {
 
 const numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5:"));
 
-if (numeroUtente < 1, numeroUtente > 5) {
+if (isNaN(numeroUtente) || numeroUtente < 1 || numeroUtente > 5) {
   alert("Numero non valido");
 
 } else {
